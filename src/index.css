@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+* {
+  font-family: "Barlow", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+body {
+  @apply bg-white;
+}
