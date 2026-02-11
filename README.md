@@ -1,16 +1,22 @@
-# React + Vite
+# Sports App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is an update to [this project](https://github.com/sankthomas/sports-app) as the API was updated.
 
-Currently, two official plugins are available:
+> This project uses React Vite, the original project used React Native Expo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Demo
 
-## React Compiler
+![teams-page](./teams-page.png)
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+Above shows the landing page when you run the application. Below is the dynamic page you are linked to when you click on one of the teams:
 
-## Expanding the ESLint configuration
+![players-page](./players-page.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Of course, the players page changes to show the correct data for all teams.
+
+## How to run
+
+1. Clone or download the repository
+2. Install `node_modules`
+3. Run the app using `npm dev`
+4. Open `http://localhost:5173` to see the app.
